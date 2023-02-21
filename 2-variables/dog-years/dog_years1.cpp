@@ -16,6 +16,9 @@ int main()
 
   human_years = early_years + later_years;
 
-  std::cout << "My name is Sparkles! Ruff Ruff, I am " << human_years << " years old in human years.\n";
+  std::cout << "My name is Sparkles! Ruff Ruff, I am " << human_years << " years old in dog years.\n";
+  
+  // "in dog years" prints 25 rather 21, was confusing
+  return 0;
 
 }
